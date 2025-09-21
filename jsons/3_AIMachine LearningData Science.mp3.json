@@ -1,0 +1,523 @@
+{
+    "chunks": [
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 0.0,
+            "end": 5.92,
+            "text": " Okay, so we have an idea of what machine learning is."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 5.92,
+            "end": 6.92,
+            "text": " Kind of."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 6.92,
+            "end": 8.88,
+            "text": " But then there's other things, right?"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 8.88,
+            "end": 15.32,
+            "text": " Like AI, artificial intelligence, data science, deep learning, neural networks."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 15.32,
+            "end": 17.16,
+            "text": " What are all those things?"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 17.16,
+            "end": 22.16,
+            "text": " Now, let's look at machine learning and how it fits into some of the other words you may"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 22.16,
+            "end": 23.16,
+            "text": " have heard."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 23.16,
+            "end": 26.52,
+            "text": " Now, you have to keep this diagram in mind."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 27.08,
+            "end": 33.519999999999996,
+            "text": " You see, it all starts with AI or artificial intelligence, which simply means a human"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 33.519999999999996,
+            "end": 37.16,
+            "text": " intelligence exhibited by machines."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 37.16,
+            "end": 41.16,
+            "text": " An AI is a machine that acts like a human."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 41.16,
+            "end": 45.56,
+            "text": " And currently in our industry, we have something called narrow AI."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 45.56,
+            "end": 51.760000000000005,
+            "text": " That is, machines can be just as good or even better than humans at specific tasks."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 51.76,
+            "end": 59.76,
+            "text": " For example, detecting heart disease from images or at a game of go or chast or starcraft"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 59.76,
+            "end": 65.6,
+            "text": " and other video games, but each AI is only good at one task."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 65.6,
+            "end": 71.84,
+            "text": " Narrow AI that we currently have simply means those machines can only do one thing really"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 71.84,
+            "end": 72.84,
+            "text": " well."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 72.84,
+            "end": 76.44,
+            "text": " They can be like humans and have multiple abilities."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 76.44,
+            "end": 78.6,
+            "text": " That's called general AI."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 78.6,
+            "end": 82.55999999999999,
+            "text": " And it's something that we're very, very far away from now."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 82.55999999999999,
+            "end": 86.36,
+            "text": " Machine learning is a subset of AI."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 86.36,
+            "end": 91.91999999999999,
+            "text": " And machine learning is an approach to try and achieve artificial intelligence through"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 91.91999999999999,
+            "end": 96.16,
+            "text": " systems that can find patterns in a set of data."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 96.16,
+            "end": 101.8,
+            "text": " And actually Stanford University describes machine learning as the science of getting computers"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 101.8,
+            "end": 105.88,
+            "text": " to act without being explicitly programmed."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 105.88,
+            "end": 111.03999999999999,
+            "text": " That is getting machines to do things without us specifically saying, do this, then do"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 111.03999999999999,
+            "end": 115.6,
+            "text": " that, if then, if this, if this, then that."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 115.6,
+            "end": 118.96,
+            "text": " And don't worry, we'll explain that more throughout the section."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 118.96,
+            "end": 127.0,
+            "text": " Now you may have also heard of deep learning and deep learning or deep neural networks is"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 127.0,
+            "end": 131.6,
+            "text": " just one of the techniques for implementing machine learning."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 131.6,
+            "end": 135.35999999999999,
+            "text": " For now, you can just think of it as a type of algorithm."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 135.35999999999999,
+            "end": 139.12,
+            "text": " But then we have this other thing that we've heard of, right?"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 139.12,
+            "end": 140.84,
+            "text": " That's also very popular."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 140.84,
+            "end": 143.4,
+            "text": " That is data science."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 143.4,
+            "end": 150.2,
+            "text": " And often the role of a data science and machine learning expert are quite overlapping."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 150.2,
+            "end": 156.56,
+            "text": " And most job descriptions actually don't even have a clear distinction between what is"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 156.56,
+            "end": 160.2,
+            "text": " a machine learning expert and a data science expert."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 160.2,
+            "end": 166.0,
+            "text": " The field of data science simply means analyzing data, looking at data and then doing something"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 166.0,
+            "end": 169.51999999999998,
+            "text": " with it, usually some sort of a business goal."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 169.51999999999998,
+            "end": 174.11999999999998,
+            "text": " So when we talk about machine learning, there's a lot of overlap with data science."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 174.11999999999998,
+            "end": 177.67999999999998,
+            "text": " And that's why this course is called machine learning and data science."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 177.67999999999998,
+            "end": 181.07999999999998,
+            "text": " If you are a data scientist, you need to know machine learning."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 181.07999999999998,
+            "end": 185.48,
+            "text": " If you are a machine learning expert, you need to know data science."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 185.48,
+            "end": 189.28,
+            "text": " So throughout the next couple of videos, we're going to be talking about both of these topics"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 189.28,
+            "end": 193.04,
+            "text": " because both of them relate and overlap."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 193.04,
+            "end": 196.92000000000002,
+            "text": " And you can't do one without the other because you need to be able to understand data and"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 196.92000000000002,
+            "end": 200.24,
+            "text": " work with data to do any of these things."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 200.24,
+            "end": 205.12,
+            "text": " That's why when we talk about careers, often things like machine learning, data scientist,"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 205.12,
+            "end": 208.8,
+            "text": " data analyst, they're all similar because they all work with data."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 208.8,
+            "end": 213.52,
+            "text": " And from that data, they want to derive some sort of action for their business, for the"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 213.52,
+            "end": 216.0,
+            "text": " company or for their users."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 216.0,
+            "end": 220.08,
+            "text": " Now in this course, we're really focusing on the application side of things."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 220.08,
+            "end": 224.36,
+            "text": " That is the day to day use of machine learning and data science."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 224.36,
+            "end": 231.56,
+            "text": " We won't focus on theoretical academic research, which means you won't need a PhD or be super"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 231.56,
+            "end": 235.92000000000002,
+            "text": " smart mathematician or statistician to do the scores."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 235.92000000000002,
+            "end": 242.4,
+            "text": " The focus is on using machine learning and data science to be productive and to get job"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 242.4,
+            "end": 243.48,
+            "text": " ready."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 243.48,
+            "end": 245.95999999999998,
+            "text": " Because that's what companies want right now."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 245.95999999999998,
+            "end": 250.84,
+            "text": " Now when Daniel starts introducing data science and machine learning, he'll combine these"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 250.84,
+            "end": 257.96,
+            "text": " two into one and move this machine learning circle inside of data science."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 257.96,
+            "end": 262.68,
+            "text": " That's because the goal of the course is to encompass this entire data science field"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 262.68,
+            "end": 268.0,
+            "text": " and teach the machine learning aspects within data science."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 268.0,
+            "end": 272.28,
+            "text": " By the way, you might be wondering, hey, what about this whole data engineering thing"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 272.28,
+            "end": 273.28,
+            "text": " that I've heard about?"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 273.28,
+            "end": 274.59999999999997,
+            "text": " Another term isn't it?"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 274.59999999999997,
+            "end": 275.59999999999997,
+            "text": " What about that?"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 275.59999999999997,
+            "end": 276.59999999999997,
+            "text": " Talk about that, Andre."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 276.59999999999997,
+            "end": 278.0,
+            "text": " Well, you know what?"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 278.0,
+            "end": 280.44,
+            "text": " We have a whole section on it later on in the course."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 280.44,
+            "end": 283.2,
+            "text": " So for now, pretend like it doesn't exist."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 283.2,
+            "end": 284.2,
+            "text": " We'll get to it."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 284.2,
+            "end": 285.2,
+            "text": " I promise."
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 285.2,
+            "end": 290.35999999999996,
+            "text": " So now that we have an idea of what these big words are, let's have some fun in the next"
+        },
+        {
+            "number": "3",
+            "title": "AIMachine LearningData Science.mp3",
+            "start": 290.35999999999996,
+            "end": 290.64,
+            "text": " video."
+        }
+    ],
+    "text": " Okay, so we have an idea of what machine learning is. Kind of. But then there's other things, right? Like AI, artificial intelligence, data science, deep learning, neural networks. What are all those things? Now, let's look at machine learning and how it fits into some of the other words you may have heard. Now, you have to keep this diagram in mind. You see, it all starts with AI or artificial intelligence, which simply means a human intelligence exhibited by machines. An AI is a machine that acts like a human. And currently in our industry, we have something called narrow AI. That is, machines can be just as good or even better than humans at specific tasks. For example, detecting heart disease from images or at a game of go or chast or starcraft and other video games, but each AI is only good at one task. Narrow AI that we currently have simply means those machines can only do one thing really well. They can be like humans and have multiple abilities. That's called general AI. And it's something that we're very, very far away from now. Machine learning is a subset of AI. And machine learning is an approach to try and achieve artificial intelligence through systems that can find patterns in a set of data. And actually Stanford University describes machine learning as the science of getting computers to act without being explicitly programmed. That is getting machines to do things without us specifically saying, do this, then do that, if then, if this, if this, then that. And don't worry, we'll explain that more throughout the section. Now you may have also heard of deep learning and deep learning or deep neural networks is just one of the techniques for implementing machine learning. For now, you can just think of it as a type of algorithm. But then we have this other thing that we've heard of, right? That's also very popular. That is data science. And often the role of a data science and machine learning expert are quite overlapping. And most job descriptions actually don't even have a clear distinction between what is a machine learning expert and a data science expert. The field of data science simply means analyzing data, looking at data and then doing something with it, usually some sort of a business goal. So when we talk about machine learning, there's a lot of overlap with data science. And that's why this course is called machine learning and data science. If you are a data scientist, you need to know machine learning. If you are a machine learning expert, you need to know data science. So throughout the next couple of videos, we're going to be talking about both of these topics because both of them relate and overlap. And you can't do one without the other because you need to be able to understand data and work with data to do any of these things. That's why when we talk about careers, often things like machine learning, data scientist, data analyst, they're all similar because they all work with data. And from that data, they want to derive some sort of action for their business, for the company or for their users. Now in this course, we're really focusing on the application side of things. That is the day to day use of machine learning and data science. We won't focus on theoretical academic research, which means you won't need a PhD or be super smart mathematician or statistician to do the scores. The focus is on using machine learning and data science to be productive and to get job ready. Because that's what companies want right now. Now when Daniel starts introducing data science and machine learning, he'll combine these two into one and move this machine learning circle inside of data science. That's because the goal of the course is to encompass this entire data science field and teach the machine learning aspects within data science. By the way, you might be wondering, hey, what about this whole data engineering thing that I've heard about? Another term isn't it? What about that? Talk about that, Andre. Well, you know what? We have a whole section on it later on in the course. So for now, pretend like it doesn't exist. We'll get to it. I promise. So now that we have an idea of what these big words are, let's have some fun in the next video."
+}

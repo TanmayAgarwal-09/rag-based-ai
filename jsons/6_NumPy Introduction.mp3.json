@@ -1,0 +1,565 @@
+{
+    "chunks": [
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 0.0,
+            "end": 6.0,
+            "text": " Welcome back. In this section we're going to look at numpy."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 6.0,
+            "end": 13.16,
+            "text": " Now I'm very excited about this section because numpy is basically the backbone of all data"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 13.16,
+            "end": 16.96,
+            "text": " science machine learning and numerical computing and Python."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 16.96,
+            "end": 18.86,
+            "text": " And that's actually what numpy stands for."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 18.86,
+            "end": 21.72,
+            "text": " The stands for numerical python."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 21.72,
+            "end": 24.16,
+            "text": " And what is numpy?"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 24.16,
+            "end": 29.52,
+            "text": " Well, in all of machine learning, no matter what kind of data that you're working with,"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 29.52,
+            "end": 33.88,
+            "text": " now this could be a data frame like we saw in the previous section on pandas."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 33.88,
+            "end": 40.8,
+            "text": " Numpy is going to form the foundation of turning your data into a series of numbers."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 40.8,
+            "end": 47.4,
+            "text": " And then what a machine learning algorithm will do is work out the patterns in those numbers."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 47.4,
+            "end": 53.519999999999996,
+            "text": " So if we refer back to our machine learning modeling framework, we've got step one as problem"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 53.52,
+            "end": 60.24,
+            "text": " definition, step two is data evaluation features modeling and experiments."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 60.24,
+            "end": 64.64,
+            "text": " And if we have a look at what tools we can use in this section, we're going to be focused"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 64.64,
+            "end": 69.08,
+            "text": " on numpy numpy comes into the data analysis section."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 69.08,
+            "end": 73.88,
+            "text": " However, as you'll see in the future and what we just referenced before is that machine"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 73.88,
+            "end": 79.36,
+            "text": " learning, although it's referred to as modeling, is essentially taking data, turning it into"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 79.36,
+            "end": 80.36,
+            "text": " numbers."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 80.36,
+            "end": 85.12,
+            "text": " And in this case with numpy, usually the form of a numpy array, which we'll have plenty"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 85.12,
+            "end": 87.48,
+            "text": " of experience with after this section."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 87.48,
+            "end": 90.32,
+            "text": " And then finding patterns in those numbers."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 90.32,
+            "end": 96.08,
+            "text": " So almost across this entire pipeline, numpy will come into play."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 96.08,
+            "end": 98.76,
+            "text": " Now, why numpy?"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 98.76,
+            "end": 103.2,
+            "text": " Well, the main reason we use numpy instead of pure python."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 103.2,
+            "end": 106.48,
+            "text": " I mean, you can do numerical calculations in python."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 106.48,
+            "end": 112.84,
+            "text": " But usually if we want to do large scale numerical calculations, we refer to numpy."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 112.84,
+            "end": 114.68,
+            "text": " It's because it's fast."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 114.68,
+            "end": 120.60000000000001,
+            "text": " And now the reason why it's fast is because behind the scenes, there's optimizations written"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 120.60000000000001,
+            "end": 122.28,
+            "text": " in C code."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 122.28,
+            "end": 128.68,
+            "text": " The beautiful thing about the numpy package is that you can use these C code optimizations"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 128.68,
+            "end": 130.28,
+            "text": " using pure python."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 130.28,
+            "end": 134.56,
+            "text": " That means you don't have to know C to be able to use numpy."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 134.56,
+            "end": 140.32,
+            "text": " And python is a bit easier to write than pure C. So that's the advantage of using numpy."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start":140.32,
+            "end": 145.8,
+            "text": " Now it gets these optimizations in speed through a process called vectorization via a term"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 145.8,
+            "end": 153.24,
+            "text": " numpy uses called broadcasting, which is essentially just avoiding writing loops when you're"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 153.24,
+            "end": 155.2,
+            "text": " writing calculations."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 155.2,
+            "end": 160.88,
+            "text": " Because if you're writing loops to make calculations such as in python to calculate over a list, that"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 160.88,
+            "end": 165.76,
+            "text": " can form some eventual slowdowns if you have a list say of millions of different numbers,"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 165.76,
+            "end": 170.04,
+            "text": " which becomes common practice when we're working on machine learning projects."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 170.04,
+            "end": 175.96,
+            "text": " And as we mentioned before, numpy is the backbone of other python scientific packages."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 175.96,
+            "end": 180.32,
+            "text": " Numpy actually forms the basis of the pandas package."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 180.32,
+            "end": 182.64,
+            "text": " So what are we going to cover in this section?"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 182.64,
+            "end": 187.04,
+            "text": " Well, of course, we're always going to be focused on the most useful functions, the ones"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 187.04,
+            "end": 189.64,
+            "text": " that you can start using straight away."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 189.64,
+            "end": 194.16,
+            "text": " We'll have a look at different numpy data types and attributes of those data types."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 194.16,
+            "end": 199.44,
+            "text": " Now the main one is an NDE array, but we'll have a look at that in another video."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 199.44,
+            "end": 204.0,
+            "text": " We'll look at how to create arrays, arrays you can think of as a list of numbers."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 204.0,
+            "end": 207.76,
+            "text": " We'll have a look at how to view arrays and matrices."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 207.76,
+            "end": 213.51999999999998,
+            "text": " Now matrix or a matrices, you can imagine as a combination of different arrays."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 213.52,
+            "end": 216.64000000000001,
+            "text": " We'll then look at how to manipulate and compare arrays."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 216.64000000000001,
+            "end": 222.12,
+            "text": " We'll then finish up with sorting arrays, which is sorting out different lists of numbers."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 222.12,
+            "end": 227.60000000000002,
+            "text": " And then some practical use cases of where arrays get used or where numpy can be used to"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 227.60000000000002,
+            "end": 232.16000000000003,
+            "text": " turn data into list of numbers."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 232.16000000000003,
+            "end": 235.20000000000002,
+            "text": " So where can you get help if you get stuck?"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 235.20000000000002,
+            "end": 239.28,
+            "text": " Well the steps you want to try and follow is to follow along with the code."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 239.28,
+            "end": 243.68,
+            "text": " So as we're going through the video, as we're working through our Jupyter Notebook,"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 243.68,
+            "end": 248.32,
+            "text": " through the introduction to numpy lessons, you want to follow along as best you can."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 248.32,
+            "end": 251.92000000000002,
+            "text": " Now if you can't keep pace or if I'm going too fast, that's all right."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 251.92000000000002,
+            "end": 256.84,
+            "text": " Feel free to stop it, go back, practice something on your own, but you should be practicing"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 256.84,
+            "end": 260.28,
+            "text": " writing the code and running it as much as possible."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 260.28,
+            "end": 261.28,
+            "text": " So that's step two."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 261.28,
+            "end": 262.28,
+            "text": " Try it for yourself."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 262.28,
+            "end": 263.28,
+            "text": " Try to run the code."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 263.28,
+            "end": 266.24,
+            "text": " Remember the saying, if and doubt, run the code."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 266.24,
+            "end": 270.08,
+            "text": " If you get stuck on a certain function or a certain thing that we've covered, you can"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 270.08,
+            "end": 271.72,
+            "text": " try to search for it."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 271.72,
+            "end": 277.48,
+            "text": " Here you'll probably come across stack overflow or the official numpy documentation."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 277.48,
+            "end": 281.52,
+            "text": " Then after that, once you've searched for it, if you find something on stack overflow or"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 281.52,
+            "end": 286.44,
+            "text": " the numpy documentation, the important thing is to keep trying again."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 286.44,
+            "end": 290.96000000000004,
+            "text": " Enter the code that you find in the Jupyter Notebook, practice running it, if and doubt, run"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 290.96000000000004,
+            "end": 291.96000000000004,
+            "text": " the code."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 291.96,
+            "end": 296.4,
+            "text": " And then finally, if you're still stuck, don't forget, you can always ask for help."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 296.4,
+            "end": 299.96,
+            "text": " There's no such thing as a stupid question because if you have a question, it's likely"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 299.96,
+            "end": 302.44,
+            "text": " someone else has the same question."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 302.44,
+            "end": 306.44,
+            "text": " You can ask on stack overflow or on any other resource you can find."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 306.44,
+            "end": 307.68,
+            "text": " All right."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 307.68,
+            "end": 310.64,
+            "text": " With that being said, that's an introduction of numpy."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 310.64,
+            "end": 311.64,
+            "text": " It's the foundation."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 311.64,
+            "end": 315.47999999999996,
+            "text": " It's the backbone of other data science and scientific packages, but let's get in and"
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 315.47999999999996,
+            "end": 316.47999999999996,
+            "text": " code."
+        },
+        {
+            "number": "6",
+            "title": "NumPy Introduction.mp3",
+            "start": 316.47999999999996,
+            "end": 317.0,
+            "text": " Let's see what it's all about."
+        }
+    ],
+    "text": " Welcome back. In this section we're going to look at numpy. Now I'm very excited about this section because numpy is basically the backbone of all data science machine learning and numerical computing and Python. And that's actually what numpy stands for. The stands for numerical python. And what is numpy? Well, in all of machine learning, no matter what kind of data that you're working with, now this could be a data frame like we saw in the previous section on pandas. Numpy is going to form the foundation of turning your data into a series of numbers. And then what a machine learning algorithm will do is work out the patterns in those numbers. So if we refer back to our machine learning modeling framework, we've got step one as problem definition, step two is data evaluation features modeling and experiments. And if we have a look at what tools we can use in this section, we're going to be focused on numpy numpy comes into the data analysis section. However, as you'll see in the future and what we just referenced before is that machine learning, although it's referred to as modeling, is essentially taking data, turning it into numbers. And in this case with numpy, usually the form of a numpy array, which we'll have plenty of experience with after this section. And then finding patterns in those numbers. So almost across this entire pipeline, numpy will come into play. Now, why numpy? Well, the main reason we use numpy instead of pure python. I mean, you can do numerical calculations in python. But usually if we want to do large scale numerical calculations, we refer to numpy. It's because it's fast. And now the reason why it's fast is because behind the scenes, there's optimizations written in C code. The beautiful thing about the numpy package is that you can use these C code optimizations using pure python. That means you don't have to know C to be able to use numpy. And python is a bit easier to write than pure C. So that's the advantage of using numpy. Now it gets these optimizations in speed through a process called vectorization via a term numpy uses called broadcasting, which is essentially just avoiding writing loops when you're writing calculations. Because if you're writing loops to make calculations such as in python to calculate over a list, that can form some eventual slowdowns if you have a list say of millions of different numbers, which becomes common practice when we're working on machine learning projects. And as we mentioned before, numpy is the backbone of other python scientific packages. Numpy actually forms the basis of the pandas package. So what are we going to cover in this section? Well, of course, we're always going to be focused on the most useful functions, the ones that you can start using straight away. We'll have a look at different numpy data types and attributes of those data types. Now the main one is an NDE array, but we'll have a look at that in another video. We'll look at how to create arrays, arrays you can think of as a list of numbers. We'll have a look at how to view arrays and matrices. Now matrix or a matrices, you can imagine as a combination of different arrays. We'll then look at how to manipulate and compare arrays. We'll then finish up with sorting arrays, which is sorting out different lists of numbers. And then some practical use cases of where arrays get used or where numpy can be used to turn data into list of numbers. So where can you get help if you get stuck? Well the steps you want to try and follow is to follow along with the code. So as we're going through the video, as we're working through our Jupyter Notebook, through the introduction to numpy lessons, you want to follow along as best you can. Now if you can't keep pace or if I'm going too fast, that's all right. Feel free to stop it, go back, practice something on your own, but you should be practicing writing the code and running it as much as possible. So that's step two. Try it for yourself. Try to run the code. Remember the saying, if and doubt, run the code. If you get stuck on a certain function or a certain thing that we've covered, you can try to search for it. Here you'll probably come across stack overflow or the official numpy documentation. Then after that, once you've searched for it, if you find something on stack overflow or the numpy documentation, the important thing is to keep trying again. Enter the code that you find in the Jupyter Notebook, practice running it, if and doubt, run the code. And then finally, if you're still stuck, don't forget, you can always ask for help. There's no such thing as a stupid question because if you have a question, it's likely someone else has the same question. You can ask on stack overflow or on any other resource you can find. All right. With that being said, that's an introduction of numpy. It's the foundation. It's the backbone of other data science and scientific packages, but let's get in and code. Let's see what it's all about."
+}

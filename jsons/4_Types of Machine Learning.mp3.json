@@ -1,0 +1,278 @@
+{
+    "chunks": [
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 0.0,
+            "end": 2.0,
+            "text": " Welcome back."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 2.0,
+            "end": 8.0,
+            "text": " Up until now, I've been blabbering on about what machine learning is."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 8.0,
+            "end": 14.0,
+            "text": " And I hope you have a bit of an idea of why we have it and why it's useful."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 14.0,
+            "end": 20.0,
+            "text": " But at the end of the day, the only reason that we care about machine learning is that"
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 20.0,
+            "end": 26.0,
+            "text": " we're able to use machines to predict results based on incoming data."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 26.0,
+            "end": 27.0,
+            "text": " That's it."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 27.0,
+            "end": 30.0,
+            "text": " Now, this idea of machine learning and don't worry."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 30.0,
+            "end": 35.0,
+            "text": " I know we keep talking about theory, but I promise we're going to get some coding exercises first."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 35.0,
+            "end": 42.0,
+            "text": " But I do want to talk quickly about some of the machine learning categories that you often see."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 42.0,
+            "end": 45.0,
+            "text": " And keep in mind what I said."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 45.0,
+            "end": 51.0,
+            "text": " That is, machine learning is simply about predicting results based on incoming data."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 51.0,
+            "end": 55.0,
+            "text": " And all these subcategories simply do that."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 55.0,
+            "end": 63.0,
+            "text": " For example, we have the idea of a supervised learning, which is a subset of machine learning."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 63.0,
+            "end": 69.0,
+            "text": " In this supervised learning, the data that we received already has categories."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 69.0,
+            "end": 73.0,
+            "text": " Think of it as a CSV files with rows and columns label."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 73.0,
+            "end": 82.0,
+            "text": " We have label data and a test data that is label so we know if our function is right around."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 82.0,
+            "end": 92.0,
+            "text": " So in a supervised learning scenario, we can do things like classification to decide is this an apple or is this a pair?"
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 92.0,
+            "end": 99.0,
+            "text": " Machine learning model simply draws a line to decide, hey, this is an apple and this is a pair."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 99.0,
+            "end": 106.0,
+            "text": " Or we might do something called regression instead of classification based on inputs."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 106.0,
+            "end": 110.0,
+            "text": " For example, predicting stock prices."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 110.0,
+            "end": 126.0,
+            "text": " Another way that we might use supervised learning is for example to hire engineers based on inputs based on years of experience based on maybe age, maybe where they live, what type of computers they have."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 126.0,
+            "end": 137.0,
+            "text": " All these sorts of inputs that are labeled can be used in a supervised learning system to decide should I hire this engineer or should I not?"
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 137.0,
+            "end": 142.0,
+            "text": " Now, sometimes we have data that doesn't have labels."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 142.0,
+            "end": 145.0,
+            "text": " And this is called on supervised learning."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 145.0,
+            "end": 151.0,
+            "text": " Again, think of it as a CSV file without perhaps the column names label."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 151.0,
+            "end": 159.0,
+            "text": " Sometimes with things like clustering, we need to create these groups or at least the machine to create these groups."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 159.0,
+            "end": 168.0,
+            "text": " For example, we give it a bunch of data points and then the machine decides, oh, this is a group, this is a group, and this is a group."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 168.0,
+            "end": 179.0,
+            "text": " Or we can have something like association rule learning where we associate different things to predict what a customer perhaps might buy in the future."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 179.0,
+            "end": 184.0,
+            "text": " When groups don't exist, we call it unsupervised learning."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 184.0,
+            "end": 197.0,
+            "text": " We can't tell the machine that they are right or wrong like we can when we do apples versus pairs since there are no true categories, but we let the machines just create these categories for us."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 197.0,
+            "end": 201.0,
+            "text": " Finally, we have this idea of reinforcement learning."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 201.0,
+            "end": 211.0,
+            "text": " And reinforcement learning is really interesting because it's all about teaching machines through trial and error, through rewards and punishment."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 211.0,
+            "end": 219.0,
+            "text": " So the program simply learns a game by playing it millions of times until well, it gets the highest score."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 219.0,
+            "end": 230.0,
+            "text": " It doesn't know what it's doing at first, but then it tries to maximize the score and eventually figures out that hey, maybe I should try and move where the ball is coming from."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 230.0,
+            "end": 240.0,
+            "text": " So this is seen for skill acquisition or real time learning and you see it a lot in machine learning programs that play for example video games."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 240.0,
+            "end": 249.0,
+            "text": " But the idea here is that machine learning has different categories and different ways to accomplish its goal."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 250.0,
+            "end": 266.0,
+            "text": " And topics like neural networks, decision trees, support vector machines, K nearest neighbor are simply algorithms that are used with these subfields in order to come to these predictions."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 266.0,
+            "end": 278.0,
+            "text": " But remember the key thing, all of these what they're doing is trying to learn from the data that receives and predict something."
+        },
+        {
+            "number": "4",
+            "title": "Types of Machine Learning.mp3",
+            "start": 278.0,
+            "end": 281.0,
+            "text": " I'll see you in the next one. Bye bye."
+        }
+    ],
+    "text": " Welcome back. Up until now, I've been blabbering on about what machine learning is. And I hope you have a bit of an idea of why we have it and why it's useful. But at the end of the day, the only reason that we care about machine learning is that we're able to use machines to predict results based on incoming data. That's it. Now, this idea of machine learning and don't worry. I know we keep talking about theory, but I promise we're going to get some coding exercises first. But I do want to talk quickly about some of the machine learning categories that you often see. And keep in mind what I said. That is, machine learning is simply about predicting results based on incoming data. And all these subcategories simply do that. For example, we have the idea of a supervised learning, which is a subset of machine learning. In this supervised learning, the data that we received already has categories. Think of it as a CSV files with rows and columns label. We have label data and a test data that is label so we know if our function is right around. So in a supervised learning scenario, we can do things like classification to decide is this an apple or is this a pair? Machine learning model simply draws a line to decide, hey, this is an apple and this is a pair. Or we might do something called regression instead of classification based on inputs. For example, predicting stock prices. Another way that we might use supervised learning is for example to hire engineers based on inputs based on years of experience based on maybe age, maybe where they live, what type of computers they have. All these sorts of inputs that are labeled can be used in a supervised learning system to decide should I hire this engineer or should I not? Now, sometimes we have data that doesn't have labels. And this is called on supervised learning. Again, think of it as a CSV file without perhaps the column names label. Sometimes with things like clustering, we need to create these groups or at least the machine to create these groups. For example, we give it a bunch of data points and then the machine decides, oh, this is a group, this is a group, and this is a group. Or we can have something like association rule learning where we associate different things to predict what a customer perhaps might buy in the future. When groups don't exist, we call it unsupervised learning. We can't tell the machine that they are right or wrong like we can when we do apples versus pairs since there are no true categories, but we let the machines just create these categories for us. Finally, we have this idea of reinforcement learning. And reinforcement learning is really interesting because it's all about teaching machines through trial and error, through rewards and punishment. So the program simply learns a game by playing it millions of times until well, it gets the highest score. It doesn't know what it's doing at first, but then it tries to maximize the score and eventually figures out that hey, maybe I should try and move where the ball is coming from. So this is seen for skill acquisition or real time learning and you see it a lot in machine learning programs that play for example video games. But the idea here is that machine learning has different categories and different ways to accomplish its goal. And topics like neural networks, decision trees, support vector machines, K nearest neighbor are simply algorithms that are used with these subfields in order to come to these predictions. But remember the key thing, all of these what they're doing is trying to learn from the data that receives and predict something. I'll see you in the next one. Bye bye."
+}

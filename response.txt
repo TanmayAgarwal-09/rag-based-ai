@@ -1,0 +1,7 @@
+I see you're really interested in learning about deep learning! So, you want to know more about it.
+
+Deep learning is a subset of machine learning and artificial intelligence. It's actually covered in the same video as machine learning, which is video 3.
+
+If you want to learn more about deep learning, I'd recommend watching that video (AIMachine LearningData Science.mp3) from the start at timestamp 0:00 to around 1 minute and 30 seconds into the video. That's where we discuss what deep learning is and how it relates to machine learning and AI.
+
+Let me know if you have any other questions or if there's anything else I can help you with!

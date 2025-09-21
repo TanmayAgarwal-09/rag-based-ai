@@ -1,0 +1,264 @@
+{
+    "chunks": [
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 0.0,
+            "end": 8.0,
+            "text": " Here are the big words that are taking the industry by storm, machine learning."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 8.0,
+            "end": 17.0,
+            "text": " Now, throughout the course, we're going to explore this topic as well as data science and how it all fits into the tech space."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 17.0,
+            "end": 24.0,
+            "text": " But first things first, you need to be able to explain this topic to your coworkers and not look like you don't know what you're talking about."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 24.0,
+            "end": 34.0,
+            "text": " So let's start with this. You see, machines or computers in this case are really, really good at certain things, right?"
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 34.0,
+            "end": 46.0,
+            "text": " Machines can perform tasks really, really fast. And we can control these machines and get them to do tasks for us, which is what programming is."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 46.0,
+            "end": 52.0,
+            "text": " We program computers. We give them instructions to do tasks and they do it for us."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 52.0,
+            "end": 62.0,
+            "text": " You see, computers came into this world because it allowed humans to do certain tasks really fast that may have required hundreds of workers before."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 62.0,
+            "end": 71.0,
+            "text": " I mean, computers used to actually mean people who do tasks that compute, they computed things."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 71.0,
+            "end": 79.0,
+            "text": " So for example, let's say I wanted to find out how to get to Daniel's house using Google Maps."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 79.0,
+            "end": 90.0,
+            "text": " Well, one option is I could pull out a map and with a ruler measure each of the routes that I could take to Daniel's house."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 90.0,
+            "end": 96.0,
+            "text": " And then do some math, do some addition and find the shortest path."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 96.0,
+            "end": 108.0,
+            "text": " Or I could ask a computer to do this. Imagine we had 10 different routes. Instead of me measuring each route one by one, I could simply program and ask a computer."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 108.0,
+            "end": 120.0,
+            "text": " Hey, can you tell me how to get to Daniel's house? And through programming, we tell the computer, can you calculate really quickly these 10 routes and find the shortest one?"
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 120.0,
+            "end": 134.0,
+            "text": " That's what programming is. Instead of me taking 10 minutes to figure out how to get to Daniel's house and the fastest route, I just click a button and the computer tells me what to do."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 134.0,
+            "end": 146.0,
+            "text": " Obviously, we have to program it and give it instructions. But once we give it a set of instructions, it just like that finds the solution for us. It computes solutions."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 146.0,
+            "end": 154.0,
+            "text": " And you know why computers became so popular because computers saved companies lots of money."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 154.0,
+            "end": 168.0,
+            "text": " Instead of hiring lots of workers, well, let's just buy a computer that does the task of 100 workers and there you go. We saved a lot of money and computers don't complain. They'll work 24, 7, 4, you."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 168.0,
+            "end": 178.0,
+            "text": " Now, these machines or computers are really good at things that we can describe, right? That we can write in code if else blocks to do something."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 178.0,
+            "end": 189.0,
+            "text": " By the way, if you're new to programming, don't worry. We're actually going to start you off from scratch as well with Python. So don't worry. This part is just theoretical."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 189.0,
+            "end": 206.0,
+            "text": " So for example, let's say we talk about routes. I can say to the computer, hey, if route one is shorter than route two and if route one is shorter than route three and if route one is shorter than route four and also route five."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 206.0,
+            "end": 222.0,
+            "text": " Well, then pick route one as the best option. I can describe that through programming to computers and computers are really good at working on tasks that have these defined rules all the way up to a game of chess."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 222.0,
+            "end": 235.0,
+            "text": " When you play a game of chess against a computer, we could technically have these if else, if then blocks lots of them to see how to move each piece and what the pros and cons are."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 235.0,
+            "end": 243.0,
+            "text": " And because computers are fast, we can just do a ton of these calculations. But then there's a problem."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 243.0,
+            "end": 258.0,
+            "text": " What if instead of just trying to get to Daniel's house, we have to ask, is this person angry? Let's say somebody left a review on Amazon or we're building a product that detects human emotion."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 258.0,
+            "end": 279.0,
+            "text": " How can I describe to a computer what angry means? Can you do that if an if else block? What about this? What is a cat? How do we tell a computer what a cat is? Let's say I ask you to program a computer to detect if this picture is a cat or not."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 279.0,
+            "end": 299.0,
+            "text": " Can you program that? I mean sure you can technically say, yes, this cat has fur. This cat has whiskers. This cat meows. But then the computer comes back to you and asks, what is a meow? Or what are whiskers? What is hair?"
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 299.0,
+            "end": 307.0,
+            "text": " You see, the harder things become to describe, the harder it is for us to tell machines what to do."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 307.0,
+            "end": 324.0,
+            "text": " So we hire humans to do these things that are harder for us. So we let machines take care of the easier part, which is things that we can describe. And the harder things that are hard to just give instructions to, well, we just let humans do it."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 324.0,
+            "end": 330.0,
+            "text": " Like being a salesperson or being an artist, computers aren't good. So we hire humans."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 330.0,
+            "end": 343.0,
+            "text": " But then there's this new idea of machine learning. And you've definitely heard of it because it is a big buzzword right now in our industry because machine learning has a lot of applications."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 343.0,
+            "end": 356.0,
+            "text": " We could have self-driving cars, robots, vision processing, language processing, recommendation engines, translation services, stock price predictions. There's so many applications."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 356.0,
+            "end": 367.0,
+            "text": " And this is all because of machine learning. You see, things that computers couldn't do before and only humans can can now be done by computers with machine learning."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 367.0,
+            "end": 372.0,
+            "text": " Well, kind of. Sometimes it gets it right. Sometimes it doesn't. And we'll get to that."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 372.0,
+            "end": 385.0,
+            "text": " But the idea is this. The goal of machine learning is to make machines act more and more like humans. Because the smarter they get, the more they help us humans accomplish our goals."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 385.0,
+            "end": 392.0,
+            "text": " Now in this section, we're going to go over some theory to get us familiar with this topic to understand this topic a little bit more."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 392.0,
+            "end": 407.0,
+            "text": " But don't get worried. Don't get intimidated. We're going to try and simplify things and have fun along the way. And in later sections, we're actually going to code, build our own machine learning models and do that exciting stuff. But we have to learn the foundations first."
+        },
+        {
+            "number": "2",
+            "title": "What Is Machine Learning.mp3",
+            "start": 407.0,
+            "end": 412.0,
+            "text": " So let's take a break. And I'll see you in the next video. Bye."
+        }
+    ],
+    "text": " Here are the big words that are taking the industry by storm, machine learning. Now, throughout the course, we're going to explore this topic as well as data science and how it all fits into the tech space. But first things first, you need to be able to explain this topic to your coworkers and not look like you don't know what you're talking about. So let's start with this. You see, machines or computers in this case are really, really good at certain things, right? Machines can perform tasks really, really fast. And we can control these machines and get them to do tasks for us, which is what programming is. We program computers. We give them instructions to do tasks and they do it for us. You see, computers came into this world because it allowed humans to do certain tasks really fast that may have required hundreds of workers before. I mean, computers used to actually mean people who do tasks that compute, they computed things. So for example, let's say I wanted to find out how to get to Daniel's house using Google Maps. Well, one option is I could pull out a map and with a ruler measure each of the routes that I could take to Daniel's house. And then do some math, do some addition and find the shortest path. Or I could ask a computer to do this. Imagine we had 10 different routes. Instead of me measuring each route one by one, I could simply program and ask a computer. Hey, can you tell me how to get to Daniel's house? And through programming, we tell the computer, can you calculate really quickly these 10 routes and find the shortest one? That's what programming is. Instead of me taking 10 minutes to figure out how to get to Daniel's house and the fastest route, I just click a button and the computer tells me what to do. Obviously, we have to program it and give it instructions. But once we give it a set of instructions, it just like that finds the solution for us. It computes solutions. And you know why computers became so popular because computers saved companies lots of money. Instead of hiring lots of workers, well, let's just buy a computer that does the task of 100 workers and there you go. We saved a lot of money and computers don't complain. They'll work 24, 7, 4, you. Now, these machines or computers are really good at things that we can describe, right? That we can write in code if else blocks to do something. By the way, if you're new to programming, don't worry. We're actually going to start you off from scratch as well with Python. So don't worry. This part is just theoretical. So for example, let's say we talk about routes. I can say to the computer, hey, if route one is shorter than route two and if route one is shorter than route three and if route one is shorter than route four and also route five. Well, then pick route one as the best option. I can describe that through programming to computers and computers are really good at working on tasks that have these defined rules all the way up to a game of chess. When you play a game of chess against a computer, we could technically have these if else, if then blocks lots of them to see how to move each piece and what the pros and cons are. And because computers are fast, we can just do a ton of these calculations. But then there's a problem. What if instead of just trying to get to Daniel's house, we have to ask, is this person angry? Let's say somebody left a review on Amazon or we're building a product that detects human emotion. How can I describe to a computer what angry means? Can you do that if an if else block? What about this? What is a cat? How do we tell a computer what a cat is? Let's say I ask you to program a computer to detect if this picture is a cat or not. Can you program that? I mean sure you can technically say, yes, this cat has fur. This cat has whiskers. This cat meows. But then the computer comes back to you and asks, what is a meow? Or what are whiskers? What is hair? You see, the harder things become to describe, the harder it is for us to tell machines what to do. So we hire humans to do these things that are harder for us. So we let machines take care of the easier part, which is things that we can describe. And the harder things that are hard to just give instructions to, well, we just let humans do it. Like being a salesperson or being an artist, computers aren't good. So we hire humans. But then there's this new idea of machine learning. And you've definitely heard of it because it is a big buzzword right now in our industry because machine learning has a lot of applications. We could have self-driving cars, robots, vision processing, language processing, recommendation engines, translation services, stock price predictions. There's so many applications. And this is all because of machine learning. You see, things that computers couldn't do before and only humans can can now be done by computers with machine learning. Well, kind of. Sometimes it gets it right. Sometimes it doesn't. And we'll get to that. But the idea is this. The goal of machine learning is to make machines act more and more like humans. Because the smarter they get, the more they help us humans accomplish our goals. Now in this section, we're going to go over some theory to get us familiar with this topic to understand this topic a little bit more. But don't get worried. Don't get intimidated. We're going to try and simplify things and have fun along the way. And in later sections, we're actually going to code, build our own machine learning models and do that exciting stuff. But we have to learn the foundations first. So let's take a break. And I'll see you in the next video. Bye."
+}

@@ -1,0 +1,236 @@
+{
+    "chunks": [
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 0.0,
+            "end": 13.0,
+            "text": " Alrighty then. So in the past few section we've been looking at data in the form of lists of numbers and arrays and data frames, but in this section we're going to start looking into matplotlib."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 13.0,
+            "end": 19.0,
+            "text": " And so the first question we may have, and so fairly good question to have, is what is matplotlib?"
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 19.0,
+            "end": 27.0,
+            "text": " Well as you might have inferred by the name, it's a plotting library, more specifically a Python plotting library, so it'll fit in with what we've been using before."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 27.0,
+            "end": 37.0,
+            "text": " And what matplotlib does is it allows us to turn our data into some pretty visualizations, also known as plots or figures."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 37.0,
+            "end": 39.0,
+            "text": " So let's get started."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 39.0,
+            "end": 51.0,
+            "text": " If we refer back to our machine learning modeling framework, we go through problem definition, data, evaluation, features, modeling, experiments, then if we go back to where our tools fit in,"
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 51.0,
+            "end": 64.0,
+            "text": " we're going to be covering matplotlib, which is a part of the data analysis section, but can also, as you'll see with all of these tools, can also be part of the experiment section, we'll get to that in a future video, don't you worry?"
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 64.0,
+            "end": 78.0,
+            "text": " But this is going to complete the trifecta of pandas, numpy, and matplotlib. And why don't you start to see these three in action, it really makes sense the synergy these three provide in doing data analysis and exploring different data sets."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 79.0,
+            "end": 99.0,
+            "text": " So why matplotlib? Well, first of all, it's built on numpy arrays and Python. As we've discussed before, a lot of data and numerical information are built upon numpy arrays, including pandas, data frames, and it's the same with matplotlib. And because all of this is written in Python, we won't have to learn another coding language."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 99.0,
+            "end": 106.0,
+            "text": " So now we can work with our data and create visualizations, as you'll see shortly, with the same coding language."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 107.0,
+            "end": 127.0,
+            "text": " It integrates directly with pandas through the matplotlib pandas API. You can create basic or advanced plots, and again, like the other libraries, right? Matplotlib, if you can imagine a visualization, if you can imagine a plot, you can probably create it using matplotlib, but we're going to be focused on the most useful types of plots."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 127.0,
+            "end": 133.0,
+            "text": " And it has a simple to use interface, of course, once you get the foundations, but that's what we'll be covering."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 134.0,
+            "end": 153.0,
+            "text": " What are we going to cover? Well, it's a little bit of a workflow that happens within matplotlib. You start with the data, you create a plot, also known as a figure, which is kind of just like an empty square, really. And then number three is your plot data, accesses on figure."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 153.0,
+            "end": 167.0,
+            "text": " So they're the two main data classes of matplotlib, access and figure, but we'll look into these shortly. And so once you've plotted some data, you'll have something that looks like this, an X and a Y axis, with some information on here."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 167.0,
+            "end": 178.0,
+            "text": " Then you can customize the plot and add in something like a little bit of a title here, and another title here and a title here. So in this case, we've got the zero to mastery machine learning."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 178.0,
+            "end": 185.0,
+            "text": " And over time, your ML knowledge is increasing. Well, that sounds great. That's kind of similar to what we're doing now."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 185.0,
+            "end": 194.0,
+            "text": " And then finally, you'll save or share the plot, because as you could imagine, looking at a big table of data full of numbers, they can get quite confusing."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 194.0,
+            "end": 207.0,
+            "text": " Humans, we're visual creatures, right? We want to see things visually. So that's where these plots come in handy. So you can save or share them to visually communicate your work, rather than just having it in a table full of numbers."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 208.0,
+            "end": 215.0,
+            "text": " So more specifically, once we've gone through the matplotlib workflow, we're going to use that workflow throughout all of these little dot points here."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 215.0,
+            "end": 227.0,
+            "text": " We'll focus on importing matplotlib and see the two different ways of plotting. Yeah, I know. There's two different ways, but we're going to look at them both, and then we're going to pick the one that is most useful and most adaptable."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 227.0,
+            "end": 232.0,
+            "text": " We're going to plot data directly from Numpier Rays, so that'll build upon the Numpier section."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 232.0,
+            "end": 239.0,
+            "text": " And then we'll look at how matplotlib integrates directly with pandas data frames through the matplotlib pandas API."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 239.0,
+            "end": 245.0,
+            "text": " And we'll have a look at customizing our plots, so adding a different color, putting in some different titles, naming our things what we want."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 245.0,
+            "end": 254.0,
+            "text": " And then finally, we'll finish up the workflow by saving and sharing our plots, so we can communicate our work with others."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 254.0,
+            "end": 257.0,
+            "text": " Now, where can you get help?"
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 257.0,
+            "end": 264.0,
+            "text": " The first step is to always follow along with the code if you can. Remember our motto, if and out, run the code."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 264.0,
+            "end": 273.0,
+            "text": " So we'll be going again through another Jupyter notebook. It'll be available for you to go through at the end of the session or in the extra information section."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 273.0,
+            "end": 279.0,
+            "text": " Always try it for yourself. If and out, run the code. Try another thing. Keep going."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 279.0,
+            "end": 288.0,
+            "text": " If you're still stuck, search for it. You'll probably come up against Stack Overflow. We've seen that in the past or the matplotlib documentation, which again is very vast."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 288.0,
+            "end": 298.0,
+            "text": " So if you have a specific problem, you might try search for it first and then read through the documentation. If you don't really understand what's on Stack Overflow, try again."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 298.0,
+            "end": 307.0,
+            "text": " And then finally, ask a question. Remember, if and out, run the code. I have to keep reminding myself of this too, you know."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 307.0,
+            "end": 311.0,
+            "text": " Alright, well, if you're ready to plot, give me a wave."
+        },
+        {
+            "number": "7",
+            "title": "Matplotlib Introduction.mp3",
+            "start": 311.0,
+            "end": 316.0,
+            "text": " Oh yeah, I'll start with the jokes now. I'll see you in the next video."
+        }
+    ],
+    "text": " Alrighty then. So in the past few section we've been looking at data in the form of lists of numbers and arrays and data frames, but in this section we're going to start looking into matplotlib. And so the first question we may have, and so fairly good question to have, is what is matplotlib? Well as you might have inferred by the name, it's a plotting library, more specifically a Python plotting library, so it'll fit in with what we've been using before. And what matplotlib does is it allows us to turn our data into some pretty visualizations, also known as plots or figures. So let's get started. If we refer back to our machine learning modeling framework, we go through problem definition, data, evaluation, features, modeling, experiments, then if we go back to where our tools fit in, we're going to be covering matplotlib, which is a part of the data analysis section, but can also, as you'll see with all of these tools, can also be part of the experiment section, we'll get to that in a future video, don't you worry? But this is going to complete the trifecta of pandas, numpy, and matplotlib. And why don't you start to see these three in action, it really makes sense the synergy these three provide in doing data analysis and exploring different data sets. So why matplotlib? Well, first of all, it's built on numpy arrays and Python. As we've discussed before, a lot of data and numerical information are built upon numpy arrays, including pandas, data frames, and it's the same with matplotlib. And because all of this is written in Python, we won't have to learn another coding language. So now we can work with our data and create visualizations, as you'll see shortly, with the same coding language. It integrates directly with pandas through the matplotlib pandas API. You can create basic or advanced plots, and again, like the other libraries, right? Matplotlib, if you can imagine a visualization, if you can imagine a plot, you can probably create it using matplotlib, but we're going to be focused on the most useful types of plots. And it has a simple to use interface, of course, once you get the foundations, but that's what we'll be covering. What are we going to cover? Well, it's a little bit of a workflow that happens within matplotlib. You start with the data, you create a plot, also known as a figure, which is kind of just like an empty square, really. And then number three is your plot data, accesses on figure. So they're the two main data classes of matplotlib, access and figure, but we'll look into these shortly. And so once you've plotted some data, you'll have something that looks like this, an X and a Y axis, with some information on here. Then you can customize the plot and add in something like a little bit of a title here, and another title here and a title here. So in this case, we've got the zero to mastery machine learning. And over time, your ML knowledge is increasing. Well, that sounds great. That's kind of similar to what we're doing now. And then finally, you'll save or share the plot, because as you could imagine, looking at a big table of data full of numbers, they can get quite confusing. Humans, we're visual creatures, right? We want to see things visually. So that's where these plots come in handy. So you can save or share them to visually communicate your work, rather than just having it in a table full of numbers. So more specifically, once we've gone through the matplotlib workflow, we're going to use that workflow throughout all of these little dot points here. We'll focus on importing matplotlib and see the two different ways of plotting. Yeah, I know. There's two different ways, but we're going to look at them both, and then we're going to pick the one that is most useful and most adaptable. We're going to plot data directly from Numpier Rays, so that'll build upon the Numpier section. And then we'll look at how matplotlib integrates directly with pandas data frames through the matplotlib pandas API. And we'll have a look at customizing our plots, so adding a different color, putting in some different titles, naming our things what we want. And then finally, we'll finish up the workflow by saving and sharing our plots, so we can communicate our work with others. Now, where can you get help? The first step is to always follow along with the code if you can. Remember our motto, if and out, run the code. So we'll be going again through another Jupyter notebook. It'll be available for you to go through at the end of the session or in the extra information section. Always try it for yourself. If and out, run the code. Try another thing. Keep going. If you're still stuck, search for it. You'll probably come up against Stack Overflow. We've seen that in the past or the matplotlib documentation, which again is very vast. So if you have a specific problem, you might try search for it first and then read through the documentation. If you don't really understand what's on Stack Overflow, try again. And then finally, ask a question. Remember, if and out, run the code. I have to keep reminding myself of this too, you know. Alright, well, if you're ready to plot, give me a wave. Oh yeah, I'll start with the jokes now. I'll see you in the next video."
+}
